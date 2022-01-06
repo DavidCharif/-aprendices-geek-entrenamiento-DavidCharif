@@ -32,11 +32,11 @@ let convertirFunc = () => {
     let numberInput = parseInt(inputBox,10);
     let dolarizedInput;
     let inputConverted;
-    if(isNaN(numberInput) || numberInput < 0){
+    if(isNaN(numberInput) || numberInput <= 0){
         
         alert.textContent = "Error de validacion";
         container.appendChild(alert)
-        return console.log("object")
+        return console.log("Error validacion")
         } else {
         alert.textContent = ""
     }
